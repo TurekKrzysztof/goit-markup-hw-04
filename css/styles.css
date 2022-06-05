@@ -38,9 +38,6 @@ header > .container {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
-    padding-right: 15px;
-    padding-left: 15px;
 }
 .section {
     padding-top: 94px;
@@ -111,6 +108,8 @@ li > .link {
 
 .tittle {
     background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 280px;
 }
 
 .tittle>.container {
@@ -118,9 +117,6 @@ li > .link {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    padding-top: 106px;
-    padding-bottom: 106px;
 }
 
 .button1 {
@@ -217,11 +213,6 @@ li > .link {
     align-items: center;
 }
 
-.lorem-list > li {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
 .lorem-picture {
     background-color: #F5F4FA;
     border-radius: 4px;
@@ -242,9 +233,6 @@ li > .link {
     line-height: 1.71;
 
     color: #757575;
-
-    display: flex;
-    justify-content: space-between;
 }
 
 .lorem-text::first-letter,
@@ -254,10 +242,6 @@ li > .link {
     text-transform: uppercase;
 }
 
-.work > .container {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .headline2 {
     font-weight: 700;
     font-size: 36px;
@@ -287,11 +271,6 @@ li > .link {
 
 .team {
     background-color: #f5f4fa;
-}
-
-.team > .container {
-    padding-left: 15px;
-    padding-right: 15px;
 }
 
 .team-photos,
@@ -326,10 +305,6 @@ li > .link {
     padding-top: 0px;
 }
 
-.portfolio > .container {
-    padding-left: 15px;
-    padding-right: 15px;
-}
 .projects {
     display: flex;
     flex-wrap: wrap;
