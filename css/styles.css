@@ -109,7 +109,11 @@ li > .link {
 .tittle {
     background-color: #2F303A;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
+
+    background-image: url('/images/Img\ Overlay.jpg'), url('/images/Img.jpg');
+    background-size: contain, contain;
+    background-repeat: no-repeat;
 }
 
 .tittle>.container {
