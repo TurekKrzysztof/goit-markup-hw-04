@@ -91,17 +91,21 @@ li > .link {
 
 .contact {
     color: #757575;
-    display: inline-block;
-    padding-left: 50px;
+    display: flex;
+    justify: center;
+    align-items: center;
+    padding-left: 30px;
     margin-right: 0;
 }
 
-.telephone {
-
+.logo-icon {
+    fill: #757575;
+    margin-right: 10px;
 }
 
 .contact:hover,
-.contact:focus {
+.contact:hover svg,
+.contact:focus svg {
     color: var(--link-hover);
     fill: var(--link-hover);
 }
@@ -311,8 +315,10 @@ li > .link {
     fill: rgba(255, 255, 255, 0.1);
 }
 
-.team-icons-list > li:hover,
-.social-list-link:focus {
+.social-list_link:hover,
+.social-list_link:hover svg,
+.social-list_link:focus,
+.social-list_link:focus svg {
     background-color: #2196F3;
     fill: #ffffff;
 }
@@ -418,7 +424,9 @@ li > .projects-figure {
 }
 
 .customers-list_link:hover,
-.customers-list_link:focus {
+.customers-list_link:hover svg,
+.customers-list_link:focus,
+.customers-list_link:focus svg {
     border-color: var(--customers-hover);
     fill: var(--customers-hover);
 }
