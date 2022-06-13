@@ -120,7 +120,7 @@ li > .link {
     background-image: linear-gradient(
         rgba(25, 28, 38, 0.2), 
         rgba(25, 28, 38, 0.2)),
-        url('../images/Img.jpg');
+        url('./images/Img.jpg');
 
     background-position: center;
     background-repeat: no-repeat;
